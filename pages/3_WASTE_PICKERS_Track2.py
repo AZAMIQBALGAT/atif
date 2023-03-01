@@ -14,13 +14,21 @@ from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 import urllib
 
 
-
+st.set_page_config(layout="wide")
+#AZAM CODE Feature 1 Minimalize the Defaut (ap hide kar sakty ho header and footer jis pa streamlit likha hota ha)
+hide_menu_style = """
+    <style>
+    MainMenue {visibility: hidden;}
+    footer {visibility: hidden;}
+    </style>
+    """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
 # #loading online csv
 # url="https://kobo.humanitarianresponse.info/api/v2/assets/aGQGms9UUYqNz6sUfwvgxu/export-settings/esHVLDDdUVgCxpJDsFt7gUi/data.csv"#,";")
 # #s = requests.get(url).content
 # data=pd.read_csv(url, on_bad_lines='skip', sep=";")
 # df=data
-st.set_page_config(layout="wide")
+
 
 
 # Ya code app ko fast karny ka lia ha

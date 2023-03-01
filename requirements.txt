@@ -3,3 +3,10 @@ holoviews
 hvplot
 streamlit_option_menu
 streamlit-aggrid
+datetime
+pandas_profiling
+matplotlib
+folium>=0.13
+jinja2
+branca
+streamlit_folium

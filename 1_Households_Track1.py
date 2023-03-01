@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 # import folium
-from folium.plugins import MarkerCluster
+# from folium.plugins import MarkerCluster
 from streamlit_folium import st_folium
 import numpy as np
 import panel as pn

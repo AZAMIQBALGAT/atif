@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-import folium
+# import folium
 from folium.plugins import MarkerCluster
 from streamlit_folium import st_folium
 import numpy as np
